@@ -1,0 +1,93 @@
+*{margin: 0;
+padding: 0;
+}
+body{
+  background-image: url(img/background.jpeg);
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: fixed;
+}
+nav{
+  width: 100%;
+  height: 60px;
+  background-color: #ffffff;
+}
+nav ul {
+  float: left;
+}
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+nav ul li:hover {
+  background-color: #f3f3f3;
+  float: left;
+  list-style: none;
+  position: relative;
+}
+nav ul li a {
+  display: block;
+  font-family: arial;
+  color: #000000;
+  font-size: 14px;
+  padding: 22px 14px;
+  text-decoration: none;
+}
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 0px 0px 4px 4px;
+}
+nav ul li:hover ul{
+  display: block;
+}
+nav ul li ul li {
+  width: 90px;
+  border-radius: 4px;
+}
+nav ul li ul li a {
+  padding: 8px 14px;
+}
+nav ul li ul li:hover {
+  background-color: #f3f3f3;
+}
+
+
+
+
+.nav ul{
+  float: left;
+}
+.nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+.nav ul li a {
+  display: block;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+.nav ul li .drpdwn1 {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 0px 0px 4px 4px;
+}
+.nav ul li:hover .drpdwn1{
+  display: block;
+}
+.nav ul li .drpdwn1 li {
+  width: 100px;
+  border-radius: 4px;
+}
+.nav ul li .drpdwn1 li a {
+  padding: 8px 14px;
+}
+.nav ul li .drpdwn1 li:hover {
+  background-color: #f3f3f3;
+}

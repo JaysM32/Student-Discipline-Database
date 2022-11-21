@@ -1,0 +1,10 @@
+.webtitle {
+  font-family: Arial;
+  color: #4CAF50;
+  font-size: 36px;
+  line-height: 60px
+  float: left;
+  text-align: center;
+  padding: 5px 0px;
+  background-color: #30e802;
+}

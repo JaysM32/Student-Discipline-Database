@@ -1,0 +1,19 @@
+  table{
+    width: 95%;
+    border-spacing: 0px;
+    margin-left: 22px;
+    margin-right: 21px;
+  }
+
+th{
+  text-align: left;
+  padding: 2px;
+}
+
+td{
+  padding: 2px;
+}
+
+table,th,td {
+  border: 2px solid black;
+}
